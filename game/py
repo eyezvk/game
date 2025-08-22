@@ -1,0 +1,395 @@
+import time
+import sys
+import random
+
+def endingreplaced():
+    print("████████████████████")
+    print("████████████████████")
+    print(" You won the Ending:")
+    print("████████████████████")
+    print("█████ Replaced █████")
+    print("████████████████████")
+    print("████████████████████")
+    print("████████████████████")
+    print("████████████████████")
+
+    def momdoppfight():
+        print("┌────────────────────────────┐")
+        print("|                    │       |")
+        print("|▌       █████       │  ──── |")
+        print("|▌▓███               │O │  │ |")
+        print("|▌▓███   O      O    │  └──┘ |")
+        print("|▌▓███  /║/    \║\   │       |")
+        print("|▌▓███   ║      ╬    │       |")
+        print("|▌      / /    \ \   │    │  |")
+        print("|                    └────┴  |")
+        print("|──────┐                     |")
+        print("| ▀ ▀ ▀═                    ─┤")
+        print("|▀ ▀ ▀ │                     |")
+        print("| ▀ ▀ ▀│                    ─┤")
+        print("|▀ ▀ ▀ │                     |")
+        print("└....................┴..┴....┘")
+
+def house():
+    print("┌------------------┐")
+    print("|▌      ▀▀     │ ──|")
+    print("|▌▒███         │ └┘|")
+    print("|▌▒███         │o  |")
+    print("|▌             │╬  |")
+    print("|              └─┴ |")
+    print("|────┐      O      |")
+    print("|█ █ =     /║\     |")
+    print("| █ █│      ║      |")
+    print("└........../.\.....┘")
+def cave_emysl2():
+    print("┌──────────────────┐")
+    print("|        ↓         |")
+    print("|        ↓         |")
+    print("|        O O       |")
+    print("|        █ █       |")
+    print("|  o     ▓ ▓▄.▄..▄ |")
+    print("| /█\   █ █████████|")
+    print("|  █   ████████████|")
+    print("| / \ █████████████|")
+    print("└..................┘")
+def cave_emysl1():
+    print("┌──────────────────┐")
+    print("|          ↓       |")
+    print("|          ↓       |")
+    print("|        O O       |")
+    print("|        █ █       |")
+    print("|  o     ▓ ▓▄.▄..▄ |")
+    print("| /█\   █ █████████|")
+    print("|  █   ████████████|")
+    print("| / \ █████████████|")
+    print("└..................┘")
+def cave():
+    print("┌──────────────────┐")
+    print("|                  |")
+    print("|                  |")
+    print("|                  |")
+    print("|                  |")
+    print("|  o        ▄.▄..▄ |")
+    print("| /█\   █ █████████|")
+    print("|  █   ████████████|")
+    print("| / \ █████████████|")
+    print("└..................┘")
+def cave_emy():
+    print("┌──────────────────┐")
+    print("|                  |")
+    print("|        ↓ ↓       |")
+    print("|        O O       |")
+    print("|        █ █       |")
+    print("|  o     ▓ ▓▄.▄..▄ |")
+    print("| /█\   █ █████████|")
+    print("|  █   ████████████|")
+    print("| / \ █████████████|")
+    print("└..................┘")
+def blackscr():
+    print("████████████████████")
+    print("████████████████████")
+    print("████████████████████")
+    print("████████████████████")
+    print("██████Loading███████")
+    print("████████████████████")
+    print("████████████████████")
+    print("████████████████████")
+    print("████████████████████")
+def cave_entry():
+    print("┌──────────────────┐")
+    print("|                  |")
+    print("|               ███|")
+    print("|  Travelling   ███|")
+    print("|      in..     ███|")
+    print("|  o               |")
+    print("| /█\              |")
+    print("|  █               |")
+    print("| / \    ..▀▀▀  ▀  |")
+    print("└..................┘")
+def basearea():
+    print("┌------------------┐")
+    print("|                  |")
+    print("|              ███ |")
+    print("|       █ cave→███ |")
+    print("|      ███     ███ |")
+    print("| o   ██ ██        |")
+    print("|\▌/  █████        |")
+    print("| ▌   ██ ██←← house|")
+    print("| ^   ██ ██        |")
+    print("└..................┘")
+def clear():
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+
+inv = "nothing"
+emy_hp = 0
+ult_cd = 3
+emysl = 0
+hp = 0
+eap = 0
+ap = 0
+move = 0
+ab = "nothing"
+ut = "nothing"
+cd = "class display holder"
+areain = "menu"
+cdesc = "place holder"
+wdesc = "A balanced melee fighter with high health and decent damage. Charges into battle swinging their mighty blade."
+ddesc = "A glass cannon with attitude. Low health, but hits like a truck. Looks good while doing it."
+gdesc = "Sneaky and unpredictable. Prefers teamwork and surprise over raw power."
+hdesc = "The support class. Keeps the squad alive while staying chill."
+tdesc = "Built like a brick wall. Takes hits so others dont have to."
+sdesc = "Fast, focused, and slightly annoying. Knows all the frame data and wont let you forget it."
+
+clear()
+print("Welcome To the world of terminal-skilol")
+time.sleep(3)
+print("What would you like to be called:")
+username = input('Username:')
+clear()
+time.sleep(2)
+print("Great Choice welcome to the game", username,"!")
+time.sleep(2)
+clear()
+time.sleep(5)
+print("In this world you can select a class", "from the following pick:")
+time.sleep(4)
+print("   Class:               HP:          Damage:           Ability:           Ultimate")
+print("1. Warrior              150               12          sword bang        slash boom")
+print("2. Diva                  80               24              Queeen        Slayy gurl")
+print("3. Gangster              125               11             Gang up              Gun.")
+print("4. Healer               100               5           Heal(obvi)          Max ehel")
+print("5. Tank                 225               10          shield               repulse")
+print("6. SN.                  120               14          script stuff           stinky")
+print(" ")
+print(" ")
+c = int(input('Choose the class number:'))
+
+if c == 1:
+    hp = 150
+    ap = 12
+    ab = "Sword Bang"
+    ut = "Slash Boom"
+    cd = "Warrior"
+    cdesc = "A balanced melee fighter with high health and decent damage. Charges into battle swinging their mighty blade."
+elif c == 2:
+    hp = 80
+    ap = 24
+    ab = "Queen"
+    ut = "Slayy gurl"
+    cd = "Diva"
+    cdesc = "A glass cannon with attitude. Low health, but hits like a truck. Looks good while doing it."
+elif c == 3:
+    hp = 125
+    ap = 11
+    ab = "Gang up"
+    ut = "Gun."
+    cd = "Gangster"
+    cdesc = "Sneaky and unpredictable. Prefers teamwork and surprise over raw power."
+elif c == 4:
+    hp = 100
+    ap = 5
+    ab = "Heal"
+    ut = "Max ehel"
+    cd = "Healer"
+    cdesc = "The support class. Keeps the squad alive while staying chill."
+elif c == 5:
+    hp = 225
+    ap = 10
+    ab = "shield"
+    ut = "repulse"
+    cd = "Tank"
+    cdesc = "Built like a brick wall. Takes hits so others dont have to."
+elif c == 6:
+    hp = 120
+    ap = 14
+    ab = "Script Shit"
+    ut = "Stinky"
+    cd = "Sweaty Nerd"
+    cdesc = "Fast, focused, and slightly annoying. Knows all the frame data and wont let you forget it."
+else:
+    print("weirdo get out.")
+    exit(print("my code is cooked bro"))
+time.sleep(5)
+print("you have selected the class:", cd)
+print("Your class Description:", cdesc)
+time.sleep(5)
+print("Enter the number 1 to begin:")
+start = int(input('Begin: '))
+print("Let the story BEGIN!")
+time.sleep(2)
+clear()
+time.sleep(3)
+print("It was a stormy night, you head to your room.")
+print(" ")
+time.sleep(4)
+print("You were bored so, you started playing a game.")
+print(" ")
+time.sleep(3)
+print("BUT THEN..")
+print(" ")
+time.sleep(4)
+print("you feel hazy and have a blurry vision, then suddenly collapse.")
+print(" ")
+time.sleep(4)
+print("you wake up.. In a world where you do not belong.")
+print(" ")
+time.sleep(4)
+basearea()
+time.sleep(5)
+areaselect = int(input('Select the area you want to go:'))
+while areaselect != 1:
+    print("hmm..")
+    print("this area seems to be locked..")
+    print("maybe try finding a key in the cave?")
+    time.sleep(2)
+    areaselect = int(input('Select the area you want to go:'))
+if areaselect == 1:
+    areain = "Cave"
+    clear()
+    time.sleep(3)
+    cave_entry()
+    time.sleep(6)
+    clear()
+    blackscr()
+    time.sleep(6)
+    cave_emy()
+
+print("OH NO ENEMIES")
+print(" 1. Flee | 2. Fight")
+areaselect = int(input())
+if areaselect == 2:
+    areain = "fight"
+else:
+     print("you fleed the scene.")
+     time.sleep(4)
+     print("you ran into a forest comfy spot ig.")
+     time.sleep(4)
+     print("you hear weird noises, Mubbling, chewing like someone is watching you.")
+     time.sleep(5)
+     print("you turn around..")
+     time.sleep(5)
+     print("you see yourself, Staring right back at you.")
+     time.sleep(5)
+     print("it doesn't move, you think its just hallucination.")
+     time.sleep(6)
+     print("You have 2 options:")
+     time.sleep(3)
+     print("1. Runaway.")
+     time.sleep(1)
+     print("2. Not think about it.")
+     time.sleep(3)
+     endingreplace = int(input('1st or 2nd: '))
+     if endingreplace == 1:
+         print("but soon as you turn to run away.")
+     else:
+        print("you decide not to think about it.")
+        time.sleep(4)
+        print("you sit down, then...")
+        time.sleep(7)
+        print("BAM your-")
+     time.sleep(5)
+     endingreplaced()
+     exit(print("Ended"))
+
+if areain == "fight":
+    emy_hp = 100
+while emy_hp > 0 and hp > 0:
+        areain = "battle"
+        print( "HP:",hp,"|", "1. Attack | 2. Defend | 3. Ability | 4. Ultimate Cooldown in moves:", ult_cd)
+        move = int(input('Your Move:'))
+        emysl = int(input('enemy 1 or 2:'))
+        if emysl == 2:
+             cave_emysl2()
+        elif emysl == 1:
+            cave_emysl1()
+        else:
+            print("error enemy not selected")
+        enemy_ap = random.randint(5, 12)
+        if move == 2:
+            print("The enemy tried to hit you for:", enemy_ap, "But you defended it.")
+            print("Enemy's Hp:", emy_hp)
+            ult_cd -= 1
+        elif move == 1:
+            hp -= enemy_ap
+            emy_hp -= ap
+            print("Enemy's Hp:", emy_hp)
+            ult_cd -= 1
+        elif move == 3:
+            hp -= enemy_ap
+            emy_hp -= random.randint(15, 27)
+            print("Enemy's Hp:", emy_hp)
+            ult_cd -= 1
+        elif move == 4:
+            hp -= enemy_ap
+            emy_hp -= 55
+            ult_cd = 3
+        else:
+            print("my code is cooked?")
+        if hp < 1:
+            print("You lose. Restart the entire GAME.")
+            exit()
+        elif emy_hp < 1:
+            print("You win! You gain the key to the house.")
+            inv = "key"
+        else:
+            print("my code is coookeded broo")
+
+
+areain = "basearea"
+time.sleep(3)
+clear()
+blackscr()
+time.sleep(6)
+clear()
+basearea()
+areaselect = int(input())
+clear()
+if inv == "key" and areaselect == 2:
+    house()
